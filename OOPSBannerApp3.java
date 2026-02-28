@@ -1,0 +1,63 @@
+/**
+ * OOPSBannerApp3
+ *
+ * This application prints OOPS in Banner Format
+ * using String.join() for better memory efficiency.
+ *
+ * @author Sayan Latua
+ * @version 3.0
+ */
+public class OOPSBannerApp3 {
+
+    public static void main(String[] args) {
+
+        // Line 1
+        System.out.println(String.join("",
+                "  *****  ",
+                "  *****  ",
+                " ******  ",
+                " ******* "));
+
+        // Line 2
+        System.out.println(String.join("",
+                " *     * ",
+                " *     * ",
+                " *     * ",
+                " *       "));
+
+        // Line 3
+        System.out.println(String.join("",
+                " *     * ",
+                " *     * ",
+                " *     * ",
+                " *       "));
+
+        // Line 4
+        System.out.println(String.join("",
+                " *     * ",
+                " *     * ",
+                " ******  ",
+                "  *****  "));
+
+        // Line 5
+        System.out.println(String.join("",
+                " *     * ",
+                " *     * ",
+                " *       ",
+                "       * "));
+
+        // Line 6
+        System.out.println(String.join("",
+                " *     * ",
+                " *     * ",
+                " *       ",
+                "       * "));
+
+        // Line 7
+        System.out.println(String.join("",
+                "  *****  ",
+                "  *****  ",
+                " *       ",
+                " ******  "));
+    }
+}
